@@ -442,6 +442,16 @@
     </div>
 
     <script>
+        // GA事件追蹤函數
+        function trackContact(providerName, contactType) {
+            gtag('event', 'contact_provider', {
+                'provider_name': providerName,
+                'contact_type': contactType,
+                'event_category': 'engagement',
+                'page_type': 'program_benefits'
+            });
+        }
+
         // Password protection
         function checkPassword() {
             const password = prompt("請輸入密碼:");

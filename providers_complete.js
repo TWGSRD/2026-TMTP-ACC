@@ -161,16 +161,16 @@ function createProviderCard(provider) {
         <div class="contact-section">
             <div class="contact-title">📞 聯繫方式</div>
             <div class="contact-info">👤 姓名：${provider.name}</div>
-            <div class="contact-info">📧 Email：${provider.email}</div>
-            <div class="contact-info">📱 手機：${provider.phone}</div>
-            ${provider.line_id ? `<div class="contact-info">💬 LINE ID：${provider.line_id}</div>` : ''}
+            <div class="contact-info">📧 Email：<a href="mailto:${provider.email}" style="color: #FF6200;" onclick="trackContact('${provider.company}', 'email')">${provider.email}</a></div>
+            <div class="contact-info">📱 手機：<span onclick="trackContact('${provider.company}', 'phone')" style="cursor: pointer;">${provider.phone}</span></div>
+            ${provider.line_id ? `<div class="contact-info">💬 LINE ID：<span onclick="trackContact('${provider.company}', 'line')" style="cursor: pointer;">${provider.line_id}</span></div>` : ''}
         </div>
         
         ${provider.company_intro ? `
         <div class="company-intro">
             <strong>🏢 公司介紹：</strong><br>
             ${provider.company_intro}
-            ${provider.website ? `<br><br>🌐 官網：<a href="${provider.website.startsWith('http') ? provider.website : 'https://' + provider.website}" target="_blank" style="color: #FF6200;">${provider.website}</a>` : ''}
+            ${provider.website ? `<br><br>🌐 官網：<a href="${provider.website.startsWith('http') ? provider.website : 'https://' + provider.website}" target="_blank" style="color: #FF6200;" onclick="trackContact('${provider.company}', 'website')">${provider.website}</a>` : ''}
             ${getQRCodeHTML(provider)}
         </div>
         ` : ''}

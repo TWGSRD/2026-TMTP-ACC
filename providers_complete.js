@@ -66,7 +66,7 @@ const providers = [
         qr_code: "奕昕國際有限公司(游牧電商)1.png"
     },
     {
-        name: "吳廷萱",
+        name: "Linda Wu",
         company: "靈志科技有限公司",
         service_type: "品牌素材製作",
         offer_description: "新手大禮包：7張商品圖攝影 + 商品Listing頁面設計 + 商品展示30sec短影音 大禮包88折 $10,500元 (原價 $12,000元)\n(以下圖片點擊放大)",
@@ -84,8 +84,8 @@ const providers = [
         offer_description: "商品頁內容優化方案，協助您進行視覺內容企劃，並執行產品競品分析，進一步撰寫圖片文案，客製化設計產品主子圖與 Basic A+: 優惠價$59,999元 (原價$65,000元)",
         company_intro: "秩宇 Wiser 隸屬於視宇集團，致力於幫助跨境品牌持續成長、貨賣全球。透過研究各國消費市場數據以及 AI 工具，推動客戶的數位品牌貿易，創造實質獲利！",
         website: "https://viewec.com/",
-        phone: "0975127727",
-        line_id: "a93324u",
+        phone: "02-2545-8780",
+        line_id: "@viewec",
         email: "stella@wwwiser.com.tw",
         logo: "秩宇Wiser.png",
         discount_image: "秩宇Wiser.png",

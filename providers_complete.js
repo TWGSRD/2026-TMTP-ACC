@@ -1,5 +1,5 @@
 const providers = [
-    // 金流服務 (2) - Excel rows 1-2
+    // 金流服務 (2)
     {
         name: "Lucas",
         company: "Payoneer",
@@ -10,8 +10,8 @@ const providers = [
         phone: "0909604190",
         line_id: "lucas0122",
         email: "Lucashs@payoneer.com",
-        logo: "Payoneer.jpg",
-        qr_code: "Payoneer.png"
+        logo: "Payoneer.png",
+        qr_code: "Payoneer_qr.png"
     },
     {
         name: "洪銘言 Frank",
@@ -23,33 +23,36 @@ const providers = [
         phone: "0971753892",
         line_id: "soramisu",
         email: "frank.hung@sunrate.com",
-        logo: "尋匯SUNRATE.png"
+        logo: "尋匯SUNRATE.png",
+        qr_code: ""
     },
-    // 代營運 (5) - Excel rows 3-7
+
+    // 代營運 (5)
     {
         name: "Stella",
         company: "秩宇Wiser",
         service_type: "代營運",
-        offer_description: "【美國站跨境入門優惠方案】 專為美國市場拓展打造，現省 20 萬，加速啟動跨境布局！\n專案價格： $36,000 + 3% 服務抽成/月\n專案對象：新銳品牌加速器、陪跑企劃賣家\n核心服務：亞馬遜美國站管理、動態監控、市場調研與競品分析。\n品牌優化：精準文案與關鍵字佈局、品牌申請規劃、專業外文客服。\n驚喜加碼： 免費協助建置英國、加拿大、澳洲、中東（UAE）四擇一站點。\n價值增值： 積極對接政府補助資源中，細節確認後將第一時間為本方案客戶優先配對。\n \n【日本站跨境入門優惠方案】專為拓展日本市場打造，現省 20 萬，加速啟動跨境布局！\n專案價格： $36,000 + 3% 服務抽成/月\n專案對象：新銳品牌加速器、陪跑企劃賣家\n核心服務：日本站管理、動態監控、市場調研與競品分析。\n品牌優化：精準文案與關鍵字佈局、品牌申請規劃、專業外文客服。\n驚喜加碼： 日本 TikTok 免費 1 年上架曝光行銷。\n價值增值： 積極對接政府補助資源中，細節確認後將第一時間為本方案客戶優先配對。",
+        offer_description: "【美國站跨境入門優惠方案】 專為拓展美國市場打造，現省 20 萬，加速啟動跨境布局！\n專案價格： $36,000 + 3% 服務抽成/月\n專案對象：新銳品牌加速器、陪跑企劃賣家\n核心服務：亞馬遜美國站管理、動態監控、市場調研與競品分析。\n品牌優化：精準文案與關鍵字佈局、品牌申請規劃、專業外文客服。\n驚喜加碼： 免費協助建置英國、加拿大、澳洲、中東（UAE）四擇一站點。\n價值增值： 積極對接政府補助資源中，細節確認後將第一時間為本方案客戶優先配對。\n\n【日本站跨境入門優惠方案】專為拓展日本市場打造，現省 20 萬，加速啟動跨境布局！\n專案價格： $36,000 + 3% 服務抽成/月\n專案對象：新銳品牌加速器、陪跑企劃賣家\n核心服務：日本站管理、動態監控、市場調研與競品分析。\n品牌優化：精準文案與關鍵字佈局、品牌申請規劃、專業外文客服。\n驚喜加碼： 日本 TikTok 免費 1 年上架曝光行銷。\n價值增值： 積極對接政府補助資源中，細節確認後將第一時間為本方案客戶優先配對。",
         company_intro: "秩宇 Wiser 隸屬於視宇集團，致力於幫助跨境品牌持續成長、貨賣全球。透過研究各國消費市場數據以及 AI 工具，推動客戶的數位品牌貿易，創造實質獲利！",
         website: "https://viewec.com/",
         phone: "02-2545-8780",
         line_id: "@viewec",
         email: "stella@wwwiser.com.tw",
         logo: "秩宇Wiser.png",
-        discount_images: ["Wiser 代營運1.png", "Wiser_代營運2.png"]
+        qr_code: ""
     },
     {
         name: "Kent",
         company: "泰電國際",
         service_type: "代營運",
-        offer_description: "1) 0-1孵化器專案NTD: 30,000 (一次服務方案)\n2) 廣告投放專案NTD: 15,000/月 (最短合作時間需3個月)",
+        offer_description: "1) 0-1孵化器專案NTD: 30,000 (一次服務方案)\n2) 廣告投放專案NTD: 15,000/月+實收服務費 3% (最短合作時間需3個月)",
         company_intro: "泰電國際DolphinEC為萬泰物流全資子公司，泰電國際是全球電商與物流的領導者，我們擁有多元產業的Amazon代營運經驗，強大的陸海空運輸能力與行銷網路，提供您一站式整合服務。\n\n我們的海外倉庫能確保您在旺季補貨無阻，透過整合行銷服務網路，能讓您在多元渠道高效曝光，提升銷售並建立國際品牌形象。",
         website: "https://dolphinecommerce.com/",
         phone: "0905070150",
         line_id: "",
         email: "kent.he@dolphin-gp.com",
-        discount_image: "泰電國際_代營運.jpg"
+        logo: "泰電國際.png",
+        qr_code: ""
     },
     {
         name: "郭冠均 Rovi Kuo",
@@ -62,8 +65,8 @@ const providers = [
         line_id: "",
         email: "info@tw.drs.network",
         logo: "DRS 跨境電商整合服務.png",
-        qr_code: "DRS 跨境電商整合服務.png",
-        discount_image: "DRS 跨境電商整合服務.png"
+        qr_code: "DRS 跨境電商整合服務_qr.png",
+        discount_images: ["DRS 跨境電商整合服務_discount_1.png", "DRS 跨境電商整合服務_discount_2.png"]
     },
     {
         name: "Sue",
@@ -75,34 +78,37 @@ const providers = [
         phone: "0988397829",
         line_id: "",
         email: "sue@odinecom.com",
-        logo: "Odin 跨境電商運營.png"
+        logo: "Odin 跨境電商運營.png",
+        qr_code: ""
     },
     {
         name: "Cindy",
         company: "EENuRetail 壹壹新零售",
         service_type: "代營運",
-        offer_description: "(以下圖片點擊放大)\n專案類型\t走期天數\t策略目標\n【流量啟動專案】\t60天\t快速測品、獲取首波數據\n【滾動穩健專案】\t90天\t穩型優化、擴張受眾規模\n【品牌全域專案】\t180天\t多點佈局、提升獲客成本\n\n限時促銷活動\n① 1/21-1/23 簽約 享 服務費10%\n② 陪跑計劃期間內簽約 享 服務費12%\n③ 指定Amazon DSP 獨立加碼 US$3,199 贈《AI影音廣告素材》一支\n註1:報價簽完後需一個月內儲值 註2:儲值金保有一年效益,專案經啟動後,天數不可中斷 註3:非促銷活動內,服務費一律15%",
+        offer_description: "(以下圖片點擊放大)\n專案類型	走期天數	策略目標\n【流量啟動專案】	60天	快速測品、獲取首波數據\n【滾動穩健專案】	90天	穩型優化、擴張受眾規模\n【品牌全域專案】	180天	多點佈局、提升獲客成本\n\n限時促銷活動\n① 1/21-1/23 簽約 享 服務費10%\n② 陪跑計劃期間內簽約 享 服務費12%\n③ 指定Amazon DSP 獨立加碼 US$3,199 贈《AI影音廣告素材》一支\n註1:報價簽完後需一個月內儲值 註2:儲值金保有一年效益,專案經啟動後,天數不可中斷 註3:非促銷活動內,服務費一律15%",
         company_intro: "我們專注數據化、智能化的電商運營及媒體成效，並開創新型態TSP (Trade-Service-Partnership) 貿易型服務夥伴模式，協助合作夥伴零門檻打開國際市場，結合傳統貿易與專業服務，依照工廠不同狀態與需求，提供雙贏合作路徑 (亞馬遜運營服務 / B2C選物通路貿易 / B2B代工貼牌貿易)，協助台灣製造業工廠與品牌快速打開國際市場。",
         website: "https://eenuretail.com/",
         phone: "",
         line_id: "",
         email: "cindy@eenuretail.com",
-        logo: "EENuRetail壹壹新零售.png",
-        discount_image: "EENuRetail 壹壹新零售.jpg"
+        logo: "EENuRetail 壹壹新零售.png",
+        qr_code: ""
     },
-    // 品牌素材製作 (6) - Excel rows 8-13
+
+    // 品牌素材製作 (6)
     {
         name: "Couger Yang",
         company: "Click Visual Co., Ltd 克利柏有限公司",
         service_type: "品牌素材製作",
-        offer_description: "1. 品牌Logo＋基礎規範：NTD 80,000 / 64折 - NTD 125,000(原價)\n2. 包裝設計：NTD 15,000 / 75折 - NTD 20,000(原價)\n3. 商品拍攝(純產品素背景)：NTD 10,000 / 83折 - NTD 12,000(原價)\n4. 主圖視覺設計(七張)：NTD 18,000 / 9折 - NTD 20,000(原價)\n5. Brand Store：NTD 23,000 / 85折 - NTD 27,000(原價)\n6. A+頁面：NTD 20,000 / 8折 - NTD 25,000(原價)\nCOMBO A（1～6）— NTD 140,000\nCOMBO B（3～4）— NTD 23,500\nCOMBO C（3～6）— NTD 60,000",
+        offer_description: "1. 品牌Logo＋基礎規範：NTD 80,000 / 64折 - NTD 125,000(原價)\n2. 包裝設計：NTD 15,000 / 75折 - NTD 20,000(原價)	\n3. 商品拍攝(純產品素背景)：NTD 10,000 / 83折 - NTD 12,000(原價)\n4. 主圖視覺設計(七張)：NTD 18,000 / 9折 - NTD 20,000(原價)\n5. Brand Store：NTD 23,000 / 85折 - NTD 27,000(原價)	\n6. A+頁面：NTD 20,000 / 8折 - NTD 25,000(原價)\nCOMBO A（1～6）—	NTD 140,000	\nCOMBO B（3～4）—	NTD 23,500	\nCOMBO C（3～6）—	NTD 60,000",
         company_intro: "Click Visual Co. 我們是一間位於台北的全方位品牌設計公司，專注透過策略與創意打造具市場競爭力的視覺形象。團隊橫跨品牌設計、網站架設、行銷策略、攝影與社群內容，提供從品牌定位、視覺建立到行銷執行的一站式服務。Click 強調設計不只要美觀，更要引發共鳴、創造互動與驅動行動，為品牌打造兼具美感與效益的整體體驗。",
         website: "www.clickvisualco.com",
         phone: "+886989102664",
         line_id: "yangcouger",
         email: "couger.yang@clickvisual.co",
-        logo: "Click Visual Co., Ltd 克利柏有限公司.jpg",
-        discount_image: "Click Visual Co., Ltd 克利柏有限公司.jpg"
+        logo: "Click Visual Co., Ltd 克利柏有限公司.png",
+        qr_code: "",
+        discount_images: ["Click Visual Co., Ltd 克利柏有限公司_discount_1.png"]
     },
     {
         name: "Sue",
@@ -114,7 +120,8 @@ const providers = [
         phone: "0988397829",
         line_id: "",
         email: "sue@odinecom.com",
-        logo: "Odin 跨境電商運營.png"
+        logo: "Odin 跨境電商運營.png",
+        qr_code: ""
     },
     {
         name: "Linda Wu",
@@ -125,9 +132,10 @@ const providers = [
         website: "ChanceSight.com",
         phone: "0960197960",
         line_id: "lindawu1969",
-        email: "lindawu1969@gmail.com",
+        email: "lindawu1969@gmail.com\nlindawu@chancevideos.com",
         logo: "靈志科技有限公司.png",
-        discount_image: "靈志科技有限公司1.jpg"
+        qr_code: "",
+        discount_images: ["靈志科技有限公司_discount_1.png", "靈志科技有限公司_discount_2.png"]
     },
     {
         name: "Stella",
@@ -140,7 +148,8 @@ const providers = [
         line_id: "@viewec",
         email: "stella@wwwiser.com.tw",
         logo: "秩宇Wiser.png",
-        discount_image: "秩宇Wiser.png"
+        qr_code: "秩宇Wiser_qr.png",
+        discount_images: ["秩宇Wiser_discount_1.png"]
     },
     {
         name: "Cindy",
@@ -152,8 +161,8 @@ const providers = [
         phone: "",
         line_id: "",
         email: "cindy@eenuretail.com",
-        logo: "EENuRetail壹壹新零售.png",
-        discount_image: "EENuRetail 壹壹新零售.jpg"
+        logo: "EENuRetail 壹壹新零售.png",
+        qr_code: ""
     },
     {
         name: "Wendy Chang",
@@ -166,10 +175,11 @@ const providers = [
         line_id: "",
         email: "nomadfriends@gmail.com",
         logo: "奕昕國際有限公司(游牧電商).png",
-        qr_code: "奕昕國際有限公司(游牧電商)1.png",
-        discount_image: "弈昕_品牌素材製作.jpg"
+        qr_code: "奕昕國際有限公司(游牧電商)_qr.png",
+        discount_images: ["奕昕國際有限公司(游牧電商)_discount_1.png"]
     },
-    // 營運顧問 (1) - Excel row 14
+
+    // 營運顧問 (1)
     {
         name: "Wendy Chang",
         company: "奕昕國際有限公司(游牧電商)",
@@ -181,10 +191,11 @@ const providers = [
         line_id: "",
         email: "nomadfriends@gmail.com",
         logo: "奕昕國際有限公司(游牧電商).png",
-        qr_code: "奕昕國際有限公司(游牧電商)1.png",
-        discount_image: "奕昕國際有限公司(游牧電商)_營運顧問.jpg"
+        qr_code: "奕昕國際有限公司(游牧電商)_qr.png",
+        discount_images: ["奕昕國際有限公司(游牧電商)_discount_1.png"]
     },
-    // 商標申請 (2) - Excel rows 15-16
+
+    // 商標申請 (2)
     {
         name: "Jonathan",
         company: "AZ-Helper",
@@ -196,8 +207,8 @@ const providers = [
         line_id: "",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        qr_code: "AZ-Helper 2.png",
-        discount_image: "AZ-Helper (VAT&商標申請).png"
+        qr_code: "",
+        discount_images: ["AZ-Helper_discount_1.png"]
     },
     {
         name: "Vicky Lee",
@@ -208,9 +219,12 @@ const providers = [
         website: "www.bcrights.com",
         phone: "0965596536",
         line_id: "",
-        email: "vickylee@bcrights.com"
+        email: "vickylee@bcrights.com",
+        logo: "博智衛好智權有限公司.png",
+        qr_code: ""
     },
-    // 跨境物流 & 海外倉 (4) - Excel rows 17-20
+
+    // 跨境物流 & 海外倉 (4)
     {
         name: "Linda Tsai",
         company: "金匯國際物流",
@@ -222,7 +236,7 @@ const providers = [
         line_id: "063lokgc",
         email: "lindatsai@goldenwelltw.com",
         logo: "金匯國際物流.png",
-        qr_code: "金匯國際物流.png"
+        qr_code: "金匯國際物流_qr.png"
     },
     {
         name: "江仁凱",
@@ -234,7 +248,8 @@ const providers = [
         phone: "0930889145",
         line_id: "victory10052",
         email: "eason.chiang@dolphin-gp.com",
-        logo: "萬泰物流供應鏈股份有限公司.png"
+        logo: "萬泰物流供應鏈股份有限公司.png",
+        qr_code: "萬泰物流供應鏈股份有限公司_qr.png"
     },
     {
         name: "Andre Hsu",
@@ -247,7 +262,7 @@ const providers = [
         line_id: "andre5233",
         email: "andrehsu@sf-express.com.tw",
         logo: "台灣順豐速運.png",
-        qr_code: "台灣順豐速運.jpg"
+        qr_code: "台灣順豐速運_qr.png"
     },
     {
         name: "Bryan Chou",
@@ -256,26 +271,28 @@ const providers = [
         offer_description: "海外倉新客戶優惠方案 : 免除初始帳戶註冊費用(價值$300 USD) 以及第一個月倉儲費用減免",
         company_intro: "Gladstone Fulfillment Inc. 位於美國加州洛杉磯地區，提供倉儲、訂單處理、備貨出貨、中轉與供應鏈整合服務。\n\n服務相目包括物流倉儲、Amazon FBA/AWD貨物中轉、FBM一件代發，支援B2B、B2C、電商等多元出貨模式。\n\n無論是跨境電商物流、外包倉儲物流、供應鏈管理，我們的團隊具備能力和靈活性，可以滿足任何的海外倉儲物流需求。",
         website: "www.GladstoneFulfillment.com",
-        phone: "0958-652-960 ",
+        phone: "0958-652-960",
         line_id: "8166826864",
         email: "bryan@gladstonefulfillment.com",
-        logo: "Gladstone Fulfillment, Inc..jpg",
-        discount_image: "Gladstone Fulfillment, Inc..jpg"
+        logo: "Gladstone Fulfillment, Inc..png",
+        qr_code: "",
+        discount_images: ["Gladstone Fulfillment, Inc._discount_1.png"]
     },
-    // 產品合規 (2) - Excel rows 21-22
+
+    // 產品合規 (2)
     {
         name: "童寶慶",
         company: "傑地有限公司",
         service_type: "產品合規",
-        offer_description: "FDA註冊享九折，原價：食品USD1000、醫療設備 USD1600、非處方藥USD1600、化妝品工廠USD800 ",
+        offer_description: "FDA註冊享九折，原價：食品USD1000、醫療設備 USD1600、非處方藥USD1600、化妝品工廠USD800",
         company_intro: "",
         website: "https://www.jasdi.com.tw/fda.htm",
         phone: "0988-757152",
         line_id: "",
         email: "jasdi.tc@jasdi.com.tw",
         logo: "傑地有限公司.png",
-        qr_code: "傑地有限公司.jpg",
-        discount_image: "傑地有限公司.png"
+        qr_code: "傑地有限公司_qr.png",
+        discount_images: ["傑地有限公司_discount_1.png"]
     },
     {
         name: "邱雅瑩",
@@ -288,10 +305,11 @@ const providers = [
         line_id: "hana891101",
         email: "Eileen.Qiu@sgs.com",
         logo: "SGS.png",
-        qr_code: "SGS.png",
-        discount_image: "SGS.jpg"
+        qr_code: "SGS_qr.png",
+        discount_images: ["SGS_discount_1.png"]
     },
-    // 第三方培訓課程 (2) - Excel rows 23-24
+
+    // 第三方培訓課程 (2)
     {
         name: "Doris",
         company: "TransBiz",
@@ -303,7 +321,7 @@ const providers = [
         line_id: "＠transbiz",
         email: "dorislin@transbiz.co",
         logo: "TransBiz.png",
-        qr_code: "TransBiz.png"
+        qr_code: "TransBiz_qr.png"
     },
     {
         name: "Jonathan",
@@ -316,10 +334,11 @@ const providers = [
         line_id: "",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        qr_code: "AZ-Helper.png",
-        discount_image: "AZ-Helper(第三方培訓課程).png"
+        qr_code: "",
+        discount_images: ["AZ-Helper_discount_1.png"]
     },
-    // 第三方工具軟體 (3) - Excel rows 25-27
+
+    // 第三方工具軟體 (3)
     {
         name: "Jonathan",
         company: "AZ-Helper",
@@ -331,8 +350,8 @@ const providers = [
         line_id: "",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        qr_code: "AZ-Helper.png",
-        discount_image: "AZ-Helper(第三方工具軟體).png"
+        qr_code: "",
+        discount_images: ["AZ-Helper_discount_1.png"]
     },
     {
         name: "Jonathan",
@@ -344,13 +363,13 @@ const providers = [
         phone: "0905108893",
         line_id: "",
         email: "jonathan@az-helper.com",
-        logo: "Sellerboard.jpg",
-        qr_code: "SellerBoard 1.png",
-        discount_image: "Sellerboard.png"
+        logo: "Sellerboard.png",
+        qr_code: "",
+        discount_images: ["Sellerboard_discount_1.png"]
     },
     {
         name: "Jonathan",
-        company: "SellerSprite ",
+        company: "SellerSprite",
         service_type: "第三方工具軟體",
         offer_description: "主要功能介紹\n-大數據選品: 查競品、選產品、選市場、關鍵字選品\n-關鍵字研究：關鍵詞挖掘、關鍵詞反查、出單詞反查\n-運營推廣：廣告洞察、查流量來源、關聯流量、AI評論分析、產品監控\n-Chrome 插件：銷量查詢、市場分析\n\n30天免費體驗: https://sellersprite.com/cn/w/user/signup/tw\n請您註冊好帳戶後發訊息給我們, 我們將開通30天免費體驗.\n (以下圖片點擊放大)",
         company_intro: "",
@@ -359,10 +378,11 @@ const providers = [
         line_id: "",
         email: "jonathan@az-helper.com",
         logo: "SellerSprite.png",
-        qr_code: "SellerSprite 1.png",
-        discount_image: "SellerSprite.png"
+        qr_code: "",
+        discount_images: ["SellerSprite_discount_1.png"]
     },
-    // VAT申請 (1) - Excel row 28
+
+    // VAT申請 (1)
     {
         name: "Jonathan",
         company: "AZ-Helper",
@@ -374,10 +394,11 @@ const providers = [
         line_id: "",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        qr_code: "AZ-Helper.png",
-        discount_image: "AZ-Helper (VAT&商標申請).png"
+        qr_code: "",
+        discount_images: ["AZ-Helper_discount_1.png"]
     }
 ];
+
 // JavaScript functions for provider display
 function filterProviders(serviceType) {
     // Update active tab
@@ -422,15 +443,6 @@ function createProviderCard(provider) {
                      style="cursor: pointer; margin: 5px;">
             `;
         });
-    } else if (provider.discount_image) {
-        // Handle single discount image
-        discountImageHtml = `
-            <img src="discount image/${provider.discount_image}" 
-                 alt="${provider.company} 優惠" 
-                 class="offer-image" 
-                 onclick="openImageModal('discount image/${provider.discount_image}')"
-                 style="cursor: pointer;">
-        `;
     }
     
     let qrCodeHtml = '';

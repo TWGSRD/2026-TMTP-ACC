@@ -272,10 +272,10 @@ const providers = [
         company_intro: "Gladstone Fulfillment Inc. 位於美國加州洛杉磯地區，提供倉儲、訂單處理、備貨出貨、中轉與供應鏈整合服務。\n\n服務相目包括物流倉儲、Amazon FBA/AWD貨物中轉、FBM一件代發，支援B2B、B2C、電商等多元出貨模式。\n\n無論是跨境電商物流、外包倉儲物流、供應鏈管理，我們的團隊具備能力和靈活性，可以滿足任何的海外倉儲物流需求。",
         website: "www.GladstoneFulfillment.com",
         phone: "0958-652-960",
-        line_id: "8166826864",
+        line_id: "",
         email: "bryan@gladstonefulfillment.com",
         logo: "Gladstone Fulfillment, Inc..png",
-        qr_code: "",
+        qr_code: "Gladstone Fulfillment.jpg",
         discount_images: ["Gladstone Fulfillment, Inc._discount_1.png"]
     },
 

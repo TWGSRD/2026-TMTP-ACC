@@ -274,7 +274,7 @@ const providers = [
         phone: "0958-652-960",
         line_id: "",
         email: "bryan@gladstonefulfillment.com",
-        logo: "Gladstone Fulfillment, Inc..png",
+        logo: "Gladstone Fulfillment, Inc..jpg",
         qr_code: "Gladstone Fulfillment.jpg",
         discount_images: ["Gladstone Fulfillment, Inc._discount_1.png"]
     },

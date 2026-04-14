@@ -95,6 +95,20 @@ const providers = [
         qr_code: ""
     },
 
+    {
+        name: "James Feng",
+        company: "Real Digital",
+        service_type: "代營運",
+        offer_description: "全球開店啟動計畫\n• 月費： NT$35,000 （retail: NT$45,000)\n• 營收分潤： 2.5% （若在計畫期間內達成月營收 US$10,000，則另加 2.5% 獎勵分潤）\n• 計畫期間： 6 個月",
+        company_intro: "Real Digital 專注協助台灣企業進軍美國亞馬遜市場，打造國際競爭力的 D2C 品牌。作為亞馬遜官方第三方認證合作廠商，團隊首創 100 分帳號健康診斷，協助百家企業優化營運與品牌定位，並成功推動多家企業透過 G3 系統（90 天低成本驗證爆品）快速找到市場契合點，成為熱銷品牌。榮獲「2024 台北市新貿獎金獎」，使命是幫助台灣成為西方電商領導者。",
+        website: "https://realdigital.tw/",
+        phone: "",
+        line_id: "",
+        email: "james@realdigital.tw",
+        logo: "",
+        qr_code: ""
+    },
+
     // 品牌素材製作 (6)
     {
         name: "Couger Yang",
